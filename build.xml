@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="lab6b" default="test">
+<project name="lab-inheritance-Scooter" default="test">
 
     <property name="main.build.dir" value="out/production"/>
     <property name="main.src.dir" value="src"/>
