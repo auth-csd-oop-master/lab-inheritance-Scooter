@@ -29,11 +29,11 @@ public class ScooterTest {
     public void testGetPollutionScore() {
         System.out.println("getPollutionScore");
         Scooter instance = new Scooter(500, 2000);
-        double expResult = 342.0;
+        double expResult = 342.46;
         double result = instance.getPollutionScore();
         assertEquals(expResult, result, 0.1);
         instance = new Scooter(400, 2005);
-        expResult = 273.0;
+        expResult = 273.97;
         result = instance.getPollutionScore();
         assertEquals(expResult, result, 0.1);
     }
